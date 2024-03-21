@@ -1,0 +1,27 @@
+.box {
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.container {
+    display: flex;
+    margin: 0 auto;
+    width: 900px;
+    padding: 5% 0;
+}
+.box:nth-child(1){
+    background-color: #fc8c8c;
+    z-index: 2;
+    left: 100px;
+}
+.box:nth-child(2) {
+    background-color: #7c8cec;
+    z-index: 3;
+    top: 200px;
+}
+.box:nth-child(3){
+    background-color: #4cec9c;
+    z-index: 2;
+    right: 100px;
+    top: 400px;
+}
